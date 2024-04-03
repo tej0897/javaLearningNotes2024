@@ -1,0 +1,80 @@
+Goals of Spring:
+
+    1. Lightweight development with Java POJOs.
+    2. Dependency injection to promote Loose Coupling
+    3. Minimize boilerplate Java Code.
+
+            *********
+
+What is Maven?
+    
+    1. It is a Project Management tool.
+    2. Used for Build management and handle dependencies.
+    3. JARs management.
+        When we are working on a project that uses Spring, Hibernate, Apache etc, without maven, we will have to manually go to individual websites and download the jar files and map them to the classes.
+
+        But, with the help of Maven, it will automatically download the jar files and make them available during compile / run.
+    4. It also helps in Building the application.
+
+            *********
+
+POM (Project Object Model) File Structure:
+
+    1. Project mets Data  
+        Project name, version, output file type(jar or war)
+    2. Dependencies
+    3. Plugins
+        generate JUnit test reports etc..
+
+            *********
+
+Application.properties file:
+
+    1. We can define properties in this file like server port etc.
+    2. We can define some values here and use them in code later. 
+        Example: application.properties
+                    user.name=Tejas Kumar
+                 in code:
+                    @Value("${user.name}")
+
+
+            *********
+
+Spring Boot Actuator:
+
+    Problems:
+        1. How to monitor and manage our application?
+        2. How to check application health?
+        3. How to access application metrics?
+
+    Solution:
+        use Spring Boot Actuator
+
+    No need to write extra code, just add dependency. We will get REST endpoints for free.
+
+    # use "*" to expose all the actuator endpoints
+    # individual endpoints can be exposed with a comma-delimited list
+
+            *********
+
+Spring Security:
+
+    Problems:
+        1. When we use Spring actuator, many details like mappings, beans' details are exposed.
+
+        Solution:
+            use spring security
+
+        Spring security will add a layor of protection for few Actuator endpoints. An username and password will be generated which has to be used to access those endpoints.
+
+        We can change the username and password for spring security in application.properties file.
+
+        We can also disable certain endpoints like health, info in application.properties file.
+
+
+            *********
+
+Injecting Custom Application Properties:
+
+    1. Define custom properties in application.properties
+    2. Inject properties into Spring Boot Application using @Value annotation.

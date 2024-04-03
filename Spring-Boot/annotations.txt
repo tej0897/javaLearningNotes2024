@@ -1,0 +1,36 @@
+@SpringBootApplication
+
+This annotation is composed of 3 sub-annotations:
+    a. @EnableAutoConfiguration
+    b. @ComponentScan
+    c. @Configuration
+
+
+            **********
+
+@EnableAutoConfiguration:
+    It enables the auto-configuration of Spring ApplicationContext by scanning the classpath components and registering the beans.
+
+
+@ComponentScan:
+    Enables component scanning of current package and also recursively scans sub-packages.
+
+
+@Configuration:
+    Able to register extra beans with @Bean or import other configuration classes.
+
+
+            **********
+
+@ComponentScan:
+
+    1. It will scan components in main class level and package below class level. If there are sub-packages below that, it will not scan.
+
+    2. To specify ComponentScan which packages to scan, we can mention the package names like the example below:
+
+    @SpringBootApplication(
+            scanBasePackages={"
+                    "com.test.example",
+                    "org.test.example2",
+                    "edu.test.example3"
+            "})
