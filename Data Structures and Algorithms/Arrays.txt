@@ -14,6 +14,7 @@ What is an array?
 
 
 Advantages:
+
     * we can retrieve or sort the data efficiently.
 
     * Random access: We can get any data located at an index position.
@@ -42,6 +43,24 @@ Syntax:
 
     int array [] = {33,3,4,5};
         //declaration, instantiation and initialization
+
+
+            **********
+
+
+what will be the size of array for : int [] arrayExample
+
+    In Java, when you declare an array like int[] arrayExample;, you are only declaring a reference to an array of integers, not allocating memory for the array itself.
+
+    At this point, arrayExample is simply a reference that can point to an array of integers, but it doesn't actually point anywhere yet.
+
+    To actually create an array and allocate memory for it, you need to instantiate it using the new keyword. For example:
+
+    arrayExample = new int[10];
+
+    This line of code creates an array of integers with a size of 10 and assigns it to arrayExample.
+
+    So, after executing this line, arrayExample will point to an array of size 10.
 
 
             **********
