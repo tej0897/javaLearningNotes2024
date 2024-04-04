@@ -1,0 +1,9 @@
+What are Data Structures?
+
+    1. It Organizes and stores data.
+    2. Each has strengths and weaknesses.
+
+
+Which is the best Data Structure?
+
+    It depends on the application specific needs.
