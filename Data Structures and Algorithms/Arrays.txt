@@ -3,6 +3,7 @@ What is an array?
     * Contains elements of a similar type.
 
     * Elements are stored in contigious memory location.
+
     * Can store only fixed set of elements.
 
     * Index based, 1st element is stored in 0th index, 2nd in 1st index and so on.
