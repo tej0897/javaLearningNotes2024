@@ -1,0 +1,23 @@
+What is an Algorithm?
+    An Algorithm describes the steps we have to perform to accomplish a specific task.
+
+    Example: Steps to make tea.
+
+            **********
+
+Algorithm vs Implementation:
+
+    Algorithm is just steps to complete a task.
+
+    Implementation is the code we write to accomplish the given task.
+
+    There can be different Implementations for one specific algorithm.
+
+            **********
+
+Side Note:
+    1. There can be many algorithms that accomplish the same task. (making tea)
+
+    2. There can be many Implementations of the same algorithm.
+
+            **********
