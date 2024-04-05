@@ -1,0 +1,33 @@
+Things to measure the efficiency of a code:
+    
+    * We cannot add a timer at the start of the code and a timer at the end of the code and get the runtime of the algorithm / program cause the runtime will be lesser in a super computer when compared to a regular computer.
+
+    * The best way to figure out the efficiency of the code is by using Time complexity and Memory complexity.
+
+
+            **********
+
+
+Time Complexity: (important)
+    Number of steps involved to run an algorithm. 
+
+Memory Complexity: (Not that important)
+    Amount of memory it takes to run an algorithm.
+
+
+            **********
+
+
+More about Time complexity:
+
+    * We are not calculating the best case scenario as we will rarely have the best case. 
+
+    * We will not look into average case as it will not tell us the absolute worst time complexity.
+
+    * We will figure out what is the absolute worst we can expect from this algorithm.
+
+    * We compare the worst case scenario for one algorithm with worst case scenario of another algorithm to see which is better.  
+
+
+            **********
+            
