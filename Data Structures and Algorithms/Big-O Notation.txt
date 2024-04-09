@@ -28,6 +28,8 @@ More about Time complexity:
 
     * We compare the worst case scenario for one algorithm with worst case scenario of another algorithm to see which is better.  
 
+    * Time complexity will tell us how an algorithm will perform as the number of items it has to deal with increases.
+
 
             **********
             
