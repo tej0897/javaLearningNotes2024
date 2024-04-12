@@ -4,11 +4,19 @@ What is an array?
 
     * Elements are stored in contigious memory location.
 
+    * We can store primitive values or objects in an array.
+
+    * Every element occupies the same amount of space in memory.
+
+    (So, what happens when we store an array of objects like strings, they will have different size? Answer: When we have an array of String / Objects, the array stores "reference to those objects" and not the object itself. Reference to Objects will take the same space regardless of the type of object we're referring to.)
+
+    * If an array starts at memory address x, and the size of each emelent in the array is y, we can calculate the memory address of the ith element by using the expression: x + i*y
+
+    * If we know the index of an element, the time to retrieve the element will be the same, no matter where the element is in the array.
+
     * Can store only fixed set of elements.
 
     * Index based, 1st element is stored in 0th index, 2nd in 1st index and so on.
-
-    * We can store primitive values or objects in an array.
 
 
             **********
