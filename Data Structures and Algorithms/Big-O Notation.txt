@@ -33,3 +33,14 @@ More about Time complexity:
 
             **********
 
+
+Big-O types:    (Best to Worst)
+
+O(1)        :   Constant
+O(logn)     :   Logarithmic
+O(n)        :   Linear
+O(nlogn)    :   n log-star n
+O(n^2)      :   Quadratic
+
+
+            **********
