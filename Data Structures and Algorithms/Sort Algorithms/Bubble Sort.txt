@@ -25,8 +25,10 @@ How it works?
 
 
 Complexity:
-    
-    * In-Place Algorithm : Means we are using single array for partition and sort the elements instead of creating a new Array 
+
+    * In-Place Algorithm : Means we are using single array for partition and sort the elements instead of creating a new Array.
+
+Side-Note: We can use local variables in an Algorithm. If the Extra memory we're using doesn't increase as the size of the input increases, then it is In-Place Algorithm.
 
     * O(n^2) - quadratic
 
