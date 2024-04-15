@@ -1,0 +1,32 @@
+Stable Vs Unstable comes to play when there are duplicate values in the data that we are sorting.
+
+Example:
+
+    Array:  5  9  3  9  8  4
+    Index:  0  1  2  3  4  5
+
+
+    In the above example, there are two 9(s). The question here is, post sorting, will the original ordering of the two nines be preserved? (will the 9 at index 1 swap with the 9 at index 3)
+
+
+            **********
+
+
+Stable: The relative ordering of the duplicate values will be preserved after sorting. (ALWAYS PREFERRED)
+
+Unstable: The relative ordering of the duplicate values will not be preserved after sorting.
+
+
+            **********
+
+
+Why Stable sort is preferred if there are duplicates?
+
+    For integers, it does not make a difference. But when sorting Objects, it matters.
+
+    Example: If we are sorting an object and we are doing multiple sorts like first sorting by name and then by age and then by gender etc..
+
+    if the second sort causes the result of first sort to flip, then it will be a problem as we will not get the desired result.
+
+
+            **********

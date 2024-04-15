@@ -1,0 +1,42 @@
+Bubble Sort:
+
+    * Performance degrades as the number of elements that has to be sorted increases.
+
+    * It is a stable sorting algorithm. (we will swap only when the "i > i+1" and not "i >= i+1")
+
+
+How it works?
+
+    1. We have an array of length 7.
+    (This algorithm partitions the array into sorted and unsorted)
+
+    2. We have a marker "unSortedPartitionIndex" which initially is set to 6, as that is the last index of the unsorted partition.
+
+    3. We have another marker "i" which is set to 0, as that is the index used to traverse the array from left to right.
+
+    4. We compare "i" and "i+1", if i > i+1 : we swap. Else, we won't do anything.
+
+    5. increment "i" and repeat step 4 until "i" == "unSortedPartitionIndex"
+
+        (when unSortedPartitionIndex == i, it means that the largest number is pushed to the right most side of the array. This is where the partition of sorted vs unsorted begins.)
+
+    6. Decrement unSortedPartitionIndex by 1, make "i=0" and start the process again
+
+
+            **********
+
+
+Complexity:
+
+    * In-Place Algorithm : Means we are using single array for partition and sort the elements instead of creating a new Array.
+
+Side-Note: We can use local variables in an Algorithm. If the Extra memory we're using doesn't increase as the size of the input increases, then it is In-Place Algorithm.
+
+    * O(n^2) - quadratic
+
+    * It will take 100 steps to sort 10 items, 10,000 steps to sort 100 items and 1,000,000 steps to sort 1000 items.
+
+    * Algorithm degrades quickly.
+
+
+            **********
