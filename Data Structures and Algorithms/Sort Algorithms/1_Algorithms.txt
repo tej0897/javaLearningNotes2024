@@ -3,7 +3,9 @@ What is an Algorithm?
 
     Example: Steps to make tea.
 
+
             **********
+
 
 Algorithm vs Implementation:
 
@@ -13,11 +15,14 @@ Algorithm vs Implementation:
 
     There can be different Implementations for one specific algorithm.
 
+
             **********
+
 
 Side Note:
     1. There can be many algorithms that accomplish the same task. (making tea)
 
     2. There can be many Implementations of the same algorithm.
+
 
             **********
