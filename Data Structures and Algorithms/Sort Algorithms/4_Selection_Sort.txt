@@ -2,8 +2,6 @@ Selection Sort:
 
     * Divides the array into sorted and unsorted partitions just like bubble sort.
 
-    * We will set lastUnsortedIndex to 6 - index of the last unsorted partition.
-
 
             **********
 
