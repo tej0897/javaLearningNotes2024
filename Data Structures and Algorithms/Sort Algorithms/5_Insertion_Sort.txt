@@ -64,3 +64,6 @@ Short story on how do we add new element and traverse:
         b. lesser than the right most element, then the right most element will be copied to index+1 position. The comparision continues and will stop when either step a happens or when the index reaches the 0th index.
 
     4. Step 3 will be continued till the firstUnsortedIndex value becomes array.length-1 which means the entire array is sorted.
+
+
+            **********
