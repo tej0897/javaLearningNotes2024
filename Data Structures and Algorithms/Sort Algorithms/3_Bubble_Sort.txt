@@ -5,6 +5,9 @@ Bubble Sort:
     * It is a stable sorting algorithm. (we will swap only when the "i > i+1" and not "i >= i+1")
 
 
+            **********
+            
+
 How it works?
 
     1. We have an array of length 7.
