@@ -1,0 +1,53 @@
+Selection Sort:
+
+    * Divides the array into sorted and unsorted partitions just like bubble sort.
+
+    * We will set lastUnsortedIndex to 6 - index of the last unsorted partition.
+
+
+            **********
+
+
+Working:
+
+    consider the following array:
+
+elements:   20    35    -15    7    55    1    -22
+index:      0     1      2     3    4     5     6
+
+
+    * initial assignments:
+        lastUnsortedIndex : 6 (all the elements are unsorted)
+
+        i = 1 (index used to traverse array from left to right)
+
+        largest = 0 (index of largest element in unsorted partition)
+
+    * We will first assign the largest to the element at index zero and then traverse the array using "i" and compare elements.
+
+    * If element at index "i" is greater than largest, then the element at "i" becomes the largest and value of "i" is incremented.
+
+    * If the value is not greater, then we just increment the value of "i" and continue.
+
+    * We continue this till "i = lastUnsortedIndex" which means one complete traversal is done.
+
+    * Now we swap the elements at "largest" and "last element in unsorted partition" and decrement the value of lastUnsortedIndex, set "i" to 1 and largest to "0" and repeat the process.
+
+
+            **********
+
+
+Complexity:
+
+    1. In-Place Algorithm: does not need extra memory. (like memory does not increase as the number of elements to sort increases.)
+
+    2. O(n^2) time complexity: Quadratic
+
+    3. 100 steps to sort 10 items, 10,000 steps to sort 100 items, 10,00,000 steps to sort 1000 items.
+
+    4. Does not require as much swapping as Bubble sort.
+
+    5. Unstable Algorithm
+
+
+            **********
