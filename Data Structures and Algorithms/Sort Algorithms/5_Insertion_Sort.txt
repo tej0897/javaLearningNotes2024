@@ -1,0 +1,41 @@
+Insertion Sort:
+
+    * Divides the array into sorted and unsorted partitions just like bubble sort.
+
+    * Grows assorted partition from left to right.
+
+
+            **********
+
+
+Working:
+
+    consider the following array:
+
+elements:   20    35    -15    7    55    1    -22
+index:      0     1      2     3    4     5     6
+
+    
+    * Starts out by saying the element in position zero is in sorted partition because the length of partitioned side is 1. (So, by default the element is sorted)
+
+    * The elements from one till the end (right) is in unsorted partition. So, index of firstUnsortedIndex = 1
+
+        firstUnsortedIndex : 1 - first index of unsorted partition.
+
+        i = 0 - index used to traverse the sorted partition from right to left.
+
+        newElement = 35 - the value we want to insert into the sorted partition - array[firstUnsortedIndex]
+
+    * We insert the new value to the sorted partition (array[firstUnsortedIndex]), before inserting, we compare the value we're inserting with the values in the sorted partition. We traverse the sorted partition from right to left.
+
+    * We look for the value that is less than or equal to the one we're trying to insert. Once we find that value, we stop looking as we found the position for the new value.
+
+    * After inserting the value, the following changes happen:
+        a. firstUnsortedIndex : 2 
+        b. i = 1
+        c. newElement: -15
+
+    and the cycle continues.
+
+
+            **********
